@@ -1,74 +1,58 @@
-# Monte-Hall-game
-📜 Game Rules:
-There are 3 cups.
+# 🎩 Monte Hall Game (Monty Hall Problem Simulator)
 
-One cup contains a reward (the other two are empty).
+A fun simulation of the famous **Monty Hall Problem**, where your decision to **swap or not** determines your chance of winning a reward hidden under one of three cups.
 
-The player picks one cup.
+---
 
-The host reveals an empty cup from the remaining two (never showing the reward).
+## 📜 Game Rules
 
-The player is given the choice to swap or stay with their original cup.
+- There are **3 cups** — one contains a **reward**, the others are empty.
+- The player picks **one** cup.
+- The host then reveals **an empty cup** from the two remaining ones (never the reward).
+- The player is asked: **Do you want to swap your cup?**
+- The chosen cup is opened and the result is shown.
+- The game repeats until the player chooses to stop.
+- At the end, **statistics** show your results based on swap and non-swap choices.
 
-The cup is opened and the outcome (win/loss) is displayed.
+---
 
-The game repeats until the player chooses to stop.
+## 🧠 Monty Hall Strategy Insight
 
-Stats for swaps and wins are shown at the end.
+- **Swapping** gives you a **2/3** chance to win.
+- **Staying** gives you only a **1/3** chance.
+- Over many rounds, **swapping wins far more often** — the simulation proves it!
 
-🧠 Monty Hall Strategy Insight:
-Swapping gives you a 2/3 chance to win.
+---
 
-Staying gives you only a 1/3 chance.
+## 🚀 How to Run
 
-Over many plays, you'll see swapping wins far more often!
+1. Make sure you have **Python 3** installed.
+2. Save the script in a file (e.g. `monty_hall.py`)
+3. Run the script from terminal or any Python IDE:
 
-🚀 How to Run
-Make sure you have Python 3 installed.
-
-Save the script in a file, e.g. monty_hall.py
-
-Run the script from terminal or your IDE:
-
-bash
-Copy
-Edit
+```bash
 python monty_hall.py
-🧾 Example Gameplay
-pgsql
-Copy
-Edit
+
 Cups are shuffled! (3 cups total)
 Which cup do you choose? (0/1/2): 0
 
 Host reveals an empty cup at position 2.
 
 Do you want to swap your choice? (y/n): y
-🎉 You won the reward by swapping!
-(Reward was in cup #1)
+🎉 You won the reward by swapping! (Reward was in cup #1)
 
 Do you want to play again? (y/n): n
 
 🎯 Game Over!
 Total swaps: 1, Wins by swapping: 1
 Total non-swaps: 0, Wins without swapping: 0
-🛠 Features
-Interactive gameplay via terminal
 
-Randomized reward position
+---
 
-Host always shows an empty cup
+### ✅ To use it:
 
-Tracks total number of:
+1. Copy and paste the code into a file named `README.md`
+2. Place it in the same folder as your Python script.
+3. Open it in VS Code, GitHub, or a Markdown viewer to see formatted headers, lists, emojis, and more.
 
-Swaps
-
-Non-swaps
-
-Wins from each strategy
-
-📌 Want to Simulate Automatically?
-You can modify the code to run the game 1000 times without user input to statistically prove the Monty Hall theory. Let me know if you want help with that version!
-
-📚 License
-This project is free to use and modify for educational purposes.
+Let me know if you'd like a **simulator version** that runs 1000 rounds automatically to statistically validate the strategy!
