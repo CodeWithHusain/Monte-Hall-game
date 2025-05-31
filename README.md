@@ -47,12 +47,5 @@ Do you want to play again? (y/n): n
 Total swaps: 1, Wins by swapping: 1
 Total non-swaps: 0, Wins without swapping: 0
 
----
 
-### ✅ To use it:
 
-1. Copy and paste the code into a file named `README.md`
-2. Place it in the same folder as your Python script.
-3. Open it in VS Code, GitHub, or a Markdown viewer to see formatted headers, lists, emojis, and more.
-
-Let me know if you'd like a **simulator version** that runs 1000 rounds automatically to statistically validate the strategy!
